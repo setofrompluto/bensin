@@ -29,7 +29,7 @@ void lite (double rupiah){
         cout << "Oke kalau beli segitu keluarnya " << liter << " liter ya pak" << endl
         	 << "Terima kasih telah membeli :)";
    }
-void solar (double rupiah){
+void ssolar (double rupiah){
     	
 		double solar = 6000;
     
@@ -53,7 +53,7 @@ void turbo (double rupiah){
         cout << "Oke kalau beli segitu keluarnya " << liter << " liter ya pak" << endl
         	 << "Terima kasih telah membeli :)";
    }
-void dexlite (double rupiah){
+void ddexlite (double rupiah){
     	
 		double dexlite = 15000;
     
@@ -70,12 +70,12 @@ void dexlite (double rupiah){
 int main(){
     int jenis;
     double rupiah;
-    double pmax = 13000, plite = 10000, solar = 6000, pturbo = 17500;
+    double pmax = 13000, plite = 10000, solar = 6000, pturbo = 17500, Dexlite = 15000;
 
     cout << "---Pertamini GoTri---" << endl
          << "Pertamax         Rp. 13.000/liter" << endl
          << "Pertalite        Rp. 10.000/liter" << endl
-         << "Solar            Rp. 5.000/liter" << endl
+         << "Solar            Rp. 6.000/liter" << endl
          << "Pertamax Turbo   Rp. 17.500/liter" << endl
          << "Dexlite          Rp. 15.000/liter" << endl
          << "Mau beli yang mana?" << endl
@@ -83,7 +83,11 @@ int main(){
          << "1. Pertamax" << endl
          << "2. Pertalite" << endl
          << "3. Solar" << endl
-         << "4. Pertamax Turbo" << endl;
+         << "4. Pertamax Turbo" << endl
+	 << "5. Dexlite" << endl
+	 << endl
+	 << "Masukan angka sesuai jenis yang di inginkan!" << endl
+	 << endl;
 
     cin >> jenis;
     cout << endl;
@@ -99,7 +103,7 @@ int main(){
 		break;
 
 	case (3):
-		solar (rupiah);
+		ssolar (rupiah);
 		break;
 
 	case (4):
@@ -107,7 +111,7 @@ int main(){
 		break;
 
 	case (5):	
-		dexlite (rupiah)
+		ddexlite (rupiah)
 		break;
   		
 	  }
