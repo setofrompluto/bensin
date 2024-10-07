@@ -95,7 +95,20 @@ int main(){
   		break;
 
 	case (2):
-		max 
+		lite (rupiah);
+		break;
+
+	case (3):
+		solar (rupiah);
+		break;
+
+	case (4):
+		turbo (rupiah);
+		break;
+
+	case (5):	
+		dexlite (rupiah)
+		break;
   		
 	  }
     
