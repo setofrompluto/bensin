@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-	double pmax = 13000, plite = 10000, solar = 6000, pturbo = 17500;
+	double pmax = 13000, plite = 10000, solar = 6000, pturbo = 17500, dexlite = 15000
 	double rupiah;
 	
     void max (double rupiah){
@@ -17,6 +17,55 @@ using namespace std;
         cout << "Oke kalau beli segitu keluarnya " << liter << " liter ya pak" << endl
         	 << "Terima kasih telah membeli :)";
    }
+void lite (double rupiah){
+    	
+		double plite = 10000;
+    
+    	cout << "Mau ngisi berapa ribu pak?" << endl;
+    	cin >> rupiah;
+    	
+    	double liter = rupiah / plite;
+    	cout << fixed << setprecision(1);
+        cout << "Oke kalau beli segitu keluarnya " << liter << " liter ya pak" << endl
+        	 << "Terima kasih telah membeli :)";
+   }
+void solar (double rupiah){
+    	
+		double solar = 6000;
+    
+    	cout << "Mau ngisi berapa ribu pak?" << endl;
+    	cin >> rupiah;
+    	
+    	double liter = rupiah / solar;
+    	cout << fixed << setprecision(1);
+        cout << "Oke kalau beli segitu keluarnya " << liter << " liter ya pak" << endl
+        	 << "Terima kasih telah membeli :)";
+   }
+void turbo (double rupiah){
+    	
+		double pturbo = 17500;
+    
+    	cout << "Mau ngisi berapa ribu pak?" << endl;
+    	cin >> rupiah;
+    	
+    	double liter = rupiah / pturbo;
+    	cout << fixed << setprecision(1);
+        cout << "Oke kalau beli segitu keluarnya " << liter << " liter ya pak" << endl
+        	 << "Terima kasih telah membeli :)";
+   }
+void dexlite (double rupiah){
+    	
+		double dexlite = 15000;
+    
+    	cout << "Mau ngisi berapa ribu pak?" << endl;
+    	cin >> rupiah;
+    	
+    	double liter = rupiah / dexlite;
+    	cout << fixed << setprecision(1);
+        cout << "Oke kalau beli segitu keluarnya " << liter << " liter ya pak" << endl
+        	 << "Terima kasih telah membeli :)";
+   }
+
 
 int main(){
     int jenis;
@@ -28,6 +77,7 @@ int main(){
          << "Pertalite        Rp. 10.000/liter" << endl
          << "Solar            Rp. 5.000/liter" << endl
          << "Pertamax Turbo   Rp. 17.500/liter" << endl
+         << "Dexlite          Rp. 15.000/liter" << endl
          << "Mau beli yang mana?" << endl
          << endl
          << "1. Pertamax" << endl
@@ -43,6 +93,9 @@ int main(){
   	case (1):
   		max (rupiah);
   		break;
+
+	case (2):
+		max 
   		
 	  }
     
