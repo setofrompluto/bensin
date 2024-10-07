@@ -29,7 +29,7 @@ void lite (double rupiah){
         cout << "Oke kalau beli segitu keluarnya " << liter << " liter ya pak" << endl
         	 << "Terima kasih telah membeli :)";
    }
-void ssolar (double rupiah){
+void solarr (double rupiah){
     	
 		double solar = 6000;
     
@@ -103,7 +103,7 @@ int main(){
 		break;
 
 	case (3):
-		ssolar (rupiah);
+		solarr (rupiah);
 		break;
 
 	case (4):
