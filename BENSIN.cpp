@@ -70,8 +70,10 @@ void ddexlite (double rupiah){
 int main(){
     int jenis;
     double rupiah;
+    bool cek;
     double pmax = 13000, plite = 10000, solar = 6000, pturbo = 17500, Dexlite = 15000;
-
+do{
+    cek = false;
     cout << "---Pertamini GoTri---" << endl
          << "Pertamax         Rp. 13.000/liter" << endl
          << "Pertalite        Rp. 10.000/liter" << endl
@@ -114,10 +116,11 @@ int main(){
 		ddexlite (rupiah);
 		break;
 	default :
-		cout << "GAK ADA KEK GITUAN";
-	
+		cout << "RA NGEDOL KOYOK NGONOAN COK!" << endl
+		     << "TUKU SENG ENEK WAE" << endl << endl;
+		cek = true;
 	  }
     
-
+}while (cek);
     return 0;
 }
