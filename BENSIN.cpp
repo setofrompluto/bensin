@@ -10,6 +10,7 @@ using namespace std;
 		double pmax = 13000;
     
     	cout << "Mau ngisi berapa ribu pak?" << endl;
+	    cout<<"Rp. ";
     	cin >> rupiah;
     	
     	double liter = rupiah / pmax;
@@ -22,6 +23,7 @@ void lite (double rupiah){
 		double plite = 10000;
     
     	cout << "Mau ngisi berapa ribu pak?" << endl;
+	 cout<<"Rp. ";
     	cin >> rupiah;
     	
     	double liter = rupiah / plite;
@@ -34,6 +36,7 @@ void solarr (double rupiah){
 		double solar = 6000;
     
     	cout << "Mau ngisi berapa ribu pak?" << endl;
+	 cout<<"Rp. ";
     	cin >> rupiah;
     	
     	double liter = rupiah / solar;
@@ -46,6 +49,7 @@ void turbo (double rupiah){
 		double pturbo = 17500;
     
     	cout << "Mau ngisi berapa ribu pak?" << endl;
+	 cout<<"Rp. ";
     	cin >> rupiah;
     	
     	double liter = rupiah / pturbo;
@@ -58,6 +62,7 @@ void ddexlite (double rupiah){
 		double dexlite = 15000;
     
     	cout << "Mau ngisi berapa ribu pak?" << endl;
+	 cout<<"Rp. ";
     	cin >> rupiah;
     	
     	double liter = rupiah / dexlite;
