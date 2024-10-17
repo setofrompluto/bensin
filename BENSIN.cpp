@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-	double pmax = 13000, plite = 10000, solar = 6000, pturbo = 17500, dexlite = 15000
+	double pmax = 13000, plite = 10000, solar = 6000, pturbo = 17500, dexlite = 15000;
 	double rupiah;
 	
     void max (double rupiah){
@@ -111,9 +111,11 @@ int main(){
 		break;
 
 	case (5):	
-		ddexlite (rupiah)
+		ddexlite (rupiah);
 		break;
-  		
+	default :
+		cout << "GAK ADA KEK GITUAN";
+	
 	  }
     
 
