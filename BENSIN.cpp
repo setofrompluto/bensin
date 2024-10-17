@@ -116,7 +116,7 @@ do{
 		ddexlite (rupiah);
 		break;
 	default :
-		cout << "RA NGEDOL KOYOK NGONOAN COK!" << endl
+		cout << "RA NGEDOL KOYOK NGONOAN MAS/MBAK!" << endl
 		     << "TUKU SENG ENEK WAE" << endl << endl;
 		cek = true;
 	  }
